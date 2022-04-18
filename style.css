@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+    padding: 0;
+    margin: 0;
+    scroll-padding-top: 120;
+    scroll-behavior: smooth;
+    letter-spacing: 3px;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: 'Roboto', sans-serif;
+    color: antiquewhite;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top:0;
+    padding-top: 5px;
+    background-color: rgb(20, 20, 20);
+    border-bottom: 1px solid grey;
+}
+header img{
+    max-width: 30vw;
+    max-height: 8vh;
+    margin-left: 2em;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    max-width: 50vw;
+}
+nav a, nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: .4rem .5rem;
+    transition: all .8s;
+    font-size: 1rem;
+    color: antiquewhite;
+}
+main, section{
+    padding-top: 5rem;
+    color: antiquewhite;
+    justify-content: center;
+    text-align: center;
+    height: 98vh;
+    border-bottom: 1px solid grey;
+}
+
+#depois{
+    height: 70vh;
+}
+
+
+main img{
+    max-width: 50vw;
+    max-height: 50vh;
+    border: solid 4px #5584AC;
+    border-radius: 180px;
+}
+#likes{
+    background-image: url(imagens/bg-likes-removebg-preview.png);
+    background-attachment: fixed;
+}
+#likes p{
+    background-color: black;
+    font-weight: bold;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 25%;
+    margin-top: 30%;
+}
+
+#antes{
+  height: auto;  
+}
+#depois{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#depois p{
+    padding-top: 15%;
+}
+footer{
+    padding: 5px 0;
+    color: #5584AC;;
+    text-align: center;
+}
+.fontawesome{
+    font-size: 4rem;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.fontawesome a{
+    color: grey;
+}
+
+
+@media (min-width: 768px) {
+    header{
+        padding-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 8vh;
+    }
+
+    nav a:hover{
+        background-color: #5584AC;
+        border-radius: 10px;
+    }
+
+    nav a, nav ul li{
+        font-size: 1.5rem;
+    }
+    main, section{
+        padding-top: 3em;
+        margin: 0;
+    }
+
+    h1{
+        margin-bottom: 3rem;
+    }
+
+    main img{
+        border-radius: 360px;
+    }
+
+    #likes p{
+        font-size: 2rem;
+        padding: 5px;
+        margin: 1em auto 2em;
+    }
+    #antes{
+        text-align: center;
+    }
+
+    #antes{
+        display: flex;
+        justify-content: space-between;
+    }
+    #depois{
+        font-size: 3rem;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer p{
+        text-align: center;
+        font-size: 1.5rem;
+        
+    }
+
+    .fontawesome{
+        font-size: 4rem;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fontawesome a{
+        margin: 0 20px;
+    }
+
+    .fontawesome a:hover{
+        font-size: 5rem;
+    }
+}
