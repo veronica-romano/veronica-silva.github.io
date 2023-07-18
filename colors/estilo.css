@@ -83,10 +83,6 @@ main, section {
         margin-bottom: 1rem;
     }
 
-    .conteudo p {
-        line-height: 2rem;
-    }
-
 
 /* Formatando os botões da <section> */
 .cta {
