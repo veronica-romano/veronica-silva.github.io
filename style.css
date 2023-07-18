@@ -72,15 +72,6 @@ main img{
     background-image: url(imagens/bg-likes-removebg-preview.png);
     background-attachment: fixed;
 }
-#likes p{
-    background-color: black;
-    font-weight: bold;
-    width: fit-content;
-    border-radius: 8px;
-    padding: 5px;
-    margin-left: 25%;
-    margin-top: 30%;
-}
 
 #antes{
   height: auto;  
@@ -89,9 +80,7 @@ main img{
     font-size: 3rem;
     font-weight: bold;
 }
-#depois p{
-    padding-top: 15%;
-}
+
 footer{
     padding: 5px 0;
     color: #5584AC;;
