@@ -31,29 +31,9 @@ header img{
     max-height: 8vh;
     margin-left: 2em;
 }
-<<<<<<< Updated upstream
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    max-width: 50vw;
-}
-nav a, nav ul li{
-    text-decoration: none;
-    list-style-type: none;
-    padding: .4rem .5rem;
-    transition: all .8s;
-    font-size: 1rem;
-    color: antiquewhite;
-}
-=======
 
 
 
->>>>>>> Stashed changes
 main, section{
     padding-top: 5rem;
     color: antiquewhite;
