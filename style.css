@@ -31,6 +31,7 @@ header img{
     max-height: 8vh;
     margin-left: 2em;
 }
+<<<<<<< Updated upstream
 nav ul{
     display: flex;
     flex-direction: row;
@@ -48,6 +49,11 @@ nav a, nav ul li{
     font-size: 1rem;
     color: antiquewhite;
 }
+=======
+
+
+
+>>>>>>> Stashed changes
 main, section{
     padding-top: 5rem;
     color: antiquewhite;
@@ -97,22 +103,8 @@ footer{
 
 
 @media (min-width: 768px) {
-    header{
-        padding-top: 5px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 8vh;
-    }
 
-    nav a:hover{
-        background-color: #5584AC;
-        border-radius: 10px;
-    }
 
-    nav a, nav ul li{
-        font-size: 1.5rem;
-    }
     main, section{
         padding-top: 3em;
         margin: 0;
@@ -151,18 +143,5 @@ footer{
         
     }
 
-    .fontawesome{
-        font-size: 4rem;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-    }
 
-    .fontawesome a{
-        margin: 0 20px;
-    }
-
-    .fontawesome a:hover{
-        font-size: 5rem;
-    }
 }
