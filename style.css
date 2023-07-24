@@ -10,27 +10,21 @@ html{
 *, *::after, *::before{
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(20, 20, 20);
-    font-family: 'Roboto', sans-serif;
-    color: antiquewhite;
+
+.logo{
+    width: 8em;
 }
-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top:0;
-    padding-top: 5px;
-    background-color: rgb(20, 20, 20);
-    border-bottom: 1px solid grey;
+
+.navbar-toggler,
+.navbar-toggler-icon,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
 }
-header img{
-    max-width: 30vw;
-    max-height: 8vh;
-    margin-left: 2em;
-}
+
 nav ul{
     display: flex;
     flex-direction: row;
