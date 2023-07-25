@@ -42,24 +42,12 @@ nav a, nav ul li{
     font-size: 1rem;
     color: antiquewhite;
 }
-main, section{
-    padding-top: 5rem;
-    color: antiquewhite;
-    justify-content: center;
-    text-align: center;
-    height: 98vh;
-    border-bottom: 1px solid grey;
+
+#my-photo{
+    width: 300px;
+    height: 300px;
 }
 
-
-
-
-main img{
-    max-width: 50vw;
-    max-height: 50vh;
-    border: solid 4px #5584AC;
-    border-radius: 180px;
-}
 #likes{
     background-image: url(imagens/bg-likes-removebg-preview.png);
     background-attachment: fixed;
@@ -91,34 +79,7 @@ footer{
 
 
 @media (min-width: 768px) {
-    header{
-        padding-top: 5px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 8vh;
-    }
 
-    nav a:hover{
-        background-color: #5584AC;
-        border-radius: 10px;
-    }
-
-    nav a, nav ul li{
-        font-size: 1.5rem;
-    }
-    main, section{
-        padding-top: 3em;
-        margin: 0;
-    }
-
-    h1{
-        margin-bottom: 3rem;
-    }
-
-    main img{
-        border-radius: 360px;
-    }
 
     #antes{
         text-align: center;
