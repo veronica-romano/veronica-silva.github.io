@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-html{
-    padding: 0;
-    margin: 0;
-    scroll-padding-top: 120;
-    scroll-behavior: smooth;
-    letter-spacing: 3px;
+html {
+  padding: 0;
+  margin: 0;
+  scroll-padding-top: 120;
+  scroll-behavior: smooth;
+  letter-spacing: 3px;
 }
-*, *::after, *::before{
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-.logo{
-    width: 8em;
+.logo {
+  width: 8em;
 }
 
 .navbar-toggler,
@@ -25,99 +27,99 @@ html{
   border: none;
 }
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    max-width: 50vw;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  max-width: 50vw;
 }
-nav a, nav ul li{
-    text-decoration: none;
-    list-style-type: none;
-    padding: .4rem .5rem;
-    transition: all .8s;
-    font-size: 1rem;
-    color: antiquewhite;
-}
-
-#my-photo{
-    width: 300px;
-    height: 300px;
+nav a,
+nav ul li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0.4rem 0.5rem;
+  transition: all 0.8s;
+  font-size: 1rem;
+  color: antiquewhite;
 }
 
-#likes{
-    background-image: url(imagens/bg-likes-removebg-preview.png);
-    background-attachment: fixed;
+#my-photo {
+  width: 300px;
+  height: 300px;
 }
 
-#antes{
-  height: auto;  
-}
-#depois{
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-footer{
-    padding: 5px 0;
-    color: #5584AC;;
-    text-align: center;
-}
-.fontawesome{
-    font-size: 4rem;
-    padding: 2px 5px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
-.fontawesome a{
-    color: grey;
+#likes {
+  background-image: url(imagens/bg-likes-removebg-preview.png);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 80vh;
+ 
 }
 
+#antes {
+  height: auto;
+}
+#depois {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+footer {
+  padding: 5px 0;
+  color: #5584ac;
+  text-align: center;
+}
+.fontawesome {
+  font-size: 4rem;
+  padding: 2px 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.fontawesome a {
+  color: grey;
+}
 
 @media (min-width: 768px) {
+  #antes {
+    text-align: center;
+  }
 
+  #antes {
+    display: flex;
+    justify-content: space-between;
+  }
+  #depois {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0;
+  }
 
-    #antes{
-        text-align: center;
-    }
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    #antes{
-        display: flex;
-        justify-content: space-between;
-    }
-    #depois{
-        font-size: 3rem;
-        font-weight: bold;
-        padding: 0;
-    }
+  footer p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
 
-    footer{
-        display: flex;
-        justify-content: space-around;
-    }
+  .fontawesome {
+    font-size: 4rem;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
 
-    footer p{
-        text-align: center;
-        font-size: 1.5rem;
-        
-    }
+  .fontawesome a {
+    margin: 0 20px;
+  }
 
-    .fontawesome{
-        font-size: 4rem;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .fontawesome a{
-        margin: 0 20px;
-    }
-
-    .fontawesome a:hover{
-        font-size: 5rem;
-    }
+  .fontawesome a:hover {
+    font-size: 5rem;
+  }
 }
